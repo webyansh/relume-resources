@@ -1,0 +1,87 @@
+<nav
+  class="grid h-auto w-full grid-cols-[1fr_max-content_1fr] items-center justify-between border-b border-border-primary bg-white px-[5%] md:min-h-18"
+>
+  <button class="flex size-12 flex-col justify-center lg:hidden">
+    <div class="my-[3px] h-0.5 w-6 bg-black lg:hidden"></div>
+    <div class="my-[3px] h-0.5 w-6 bg-black lg:hidden"></div>
+    <div class="my-[3px] h-0.5 w-6 bg-black lg:hidden"></div>
+  </button>
+  <div
+    class="absolute left-0 top-0 z-50 flex h-dvh w-[90%] flex-col border-r border-border-primary bg-white px-[5%] pb-4 md:w-[80%] lg:visible lg:static lg:-ml-4 lg:flex lg:h-auto lg:w-auto lg:flex-row lg:border-none lg:px-0 lg:pb-0 lg:[--opacity-closed:100%] lg:[--x-closed:0%]"
+    style="
+      opacity: var(--opacity-closed, 0%);
+      transform: translateX(var(--x-closed, -100%)) translateZ(0);
+    "
+  >
+    <div class="mb-8 mt-10 flex flex-shrink-0 lg:hidden">
+      <img
+        src="https://relume-assets.s3.amazonaws.com/logo-image.svg"
+        alt="Logo image"
+      />
+    </div>
+    <div class="w-full lg:w-auto">
+      <a
+        href="#"
+        class="relative block py-3 text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 lg:px-4 lg:py-2 lg:text-base"
+        >Link One</a
+      >
+    </div>
+    <div class="w-full lg:w-auto">
+      <a
+        href="#"
+        class="relative block py-3 text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 lg:px-4 lg:py-2 lg:text-base"
+        >Link Two</a
+      >
+    </div>
+    <div class="w-full lg:w-auto">
+      <nav>
+        <button
+          class="flex w-full items-center justify-between gap-2 py-3 text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 lg:w-auto lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
+        >
+          <span>Link Three</span>
+          <div>
+            <svg
+              stroke="currentColor"
+              fill="none"
+              stroke-width="0"
+              viewBox="0 0 15 15"
+              class="size-4"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+        </button>
+      </nav>
+    </div>
+    <div class="mt-6 lg:hidden">
+      <button
+        class="inline-flex w-full items-center justify-center gap-3 whitespace-nowrap border border-border-primary bg-background-alternative px-5 py-2 text-text-alternative ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+      >
+        Button
+      </button>
+    </div>
+  </div>
+  <div class="flex min-h-16 flex-shrink-0 items-center">
+    <img
+      src="https://relume-assets.s3.amazonaws.com/logo-image.svg"
+      alt="Logo image"
+    />
+  </div>
+  <div class="flex min-h-16 items-center justify-end gap-x-4">
+    <div>
+      <button
+        class="inline-flex items-center justify-center gap-3 whitespace-nowrap border border-border-primary bg-background-alternative px-4 py-1 text-text-alternative ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 md:px-6 md:py-2"
+      >
+        Button
+      </button>
+    </div>
+  </div>
+</nav>

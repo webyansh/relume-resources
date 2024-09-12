@@ -1,0 +1,92 @@
+<section class="px-[5%] py-16 md:py-24 lg:py-28">
+  <div class="container max-w-lg">
+    <div class="mx-auto mb-8 w-full max-w-lg text-center md:mb-10 lg:mb-12">
+      <p class="mb-3 font-semibold md:mb-4">Tagline</p>
+      <h2 class="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
+        Contact us
+      </h2>
+      <p class="md:text-md">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <form class="mx-auto grid w-full max-w-md grid-cols-1 gap-6">
+      <div class="grid w-full items-center">
+        <label
+          class="mb-2 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="name"
+          >Name</label
+        ><input
+          type="text"
+          class="flex size-full min-h-11 border border-border-primary bg-background-primary px-3 py-2 align-middle file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-neutral focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          id="name"
+          value=""
+        />
+      </div>
+      <div class="grid w-full items-center">
+        <label
+          class="mb-2 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="email"
+          >Email</label
+        ><input
+          type="email"
+          class="flex size-full min-h-11 border border-border-primary bg-background-primary px-3 py-2 align-middle file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-neutral focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          id="email"
+          value=""
+        />
+      </div>
+      <div class="grid w-full items-center">
+        <label
+          class="mb-2 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="message"
+          >Message</label
+        ><textarea
+          class="flex min-h-[11.25rem] w-full overflow-auto border border-border-primary bg-neutral-white p-3 placeholder:text-neutral focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+          id="message"
+          placeholder="Type your message..."
+        ></textarea>
+      </div>
+      <div class="mb-3 flex items-center space-x-2 text-sm md:mb-4">
+        <button
+          type="button"
+          role="checkbox"
+          aria-checked="false"
+          data-state="unchecked"
+          value="on"
+          class="size-[1.125rem] border border-border-primary transition-all duration-200 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-background-alternative data-[state=indeterminate]:bg-background-primary data-[state=checked]:text-text-alternative data-[state=indeterminate]:text-text-primary"
+          id="terms"
+        ></button
+        ><input
+          type="checkbox"
+          aria-hidden="true"
+          style="
+            transform: translateX(-100%);
+            position: absolute;
+            pointer-events: none;
+            opacity: 0;
+            margin: 0;
+          "
+          tabindex="-1"
+          value="on"
+        /><label
+          class="cursor-pointer peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+          for="terms"
+          >I accept the<!-- -->
+          <a
+            class="text-link-primary underline ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Terms</a
+          ></label
+        >
+      </div>
+      <div class="text-center">
+        <button
+          class="inline-flex items-center justify-center gap-3 whitespace-nowrap border border-border-primary bg-background-alternative px-6 py-3 text-text-alternative ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
